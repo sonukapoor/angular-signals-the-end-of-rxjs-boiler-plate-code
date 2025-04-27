@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Angular Signals: The End of RxJS Boilerplate?</h1>
+
+  <div class="flex gap-4 w-100 space-between">
+    <div class="box" routerLink="counter" routerLinkActive="active">
+      <h2>Counter</h2>
+    </div>
+    <div class="box" routerLink="/user" routerLinkActive="active">
+      <h2>User Display</h2>
+    </div>
+    <div class="box" routerLink="/dashboard" routerLinkActive="active">
+      <h2>Dashboard</h2>
+    </div>
+    <div class="box" routerLinkActive="active" routerLink="/typeahead">
+      <h2>Typeahead</h2>
+    </div>
+    <div
+      class="box"
+      routerLink="/typeahead-with-http-resource"
+      routerLinkActive="active"
+    >
+      <h2>Typeahead with HTTP Resource</h2>
+    </div>
+    <div class="box" routerLink="/login" routerLinkActive="active">
+      <h2>Login</h2>
+    </div>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<!--
+  This file is part of the Angular Signals: The End of RxJS Boilerplate? project.
+  It serves as the main template for the application, providing navigation links
+  to different components such as Counter, User Display, Dashboard, and Login. -->
